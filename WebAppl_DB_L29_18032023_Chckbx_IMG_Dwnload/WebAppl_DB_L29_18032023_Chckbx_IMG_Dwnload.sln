@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppl_DB_L29_18032023_Chckbx_IMG_Dwnload", "WebAppl_DB_L29_18032023_Chckbx_IMG_Dwnload\WebAppl_DB_L29_18032023_Chckbx_IMG_Dwnload.csproj", "{0FAFF806-8EBF-405B-A2AF-DDE3B7FD0AAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FAFF806-8EBF-405B-A2AF-DDE3B7FD0AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FAFF806-8EBF-405B-A2AF-DDE3B7FD0AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FAFF806-8EBF-405B-A2AF-DDE3B7FD0AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FAFF806-8EBF-405B-A2AF-DDE3B7FD0AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85C5BCEF-8286-4E64-A397-779F5A772481}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="WebAppl_DB_L31_SignIn_Up_Mail_Valid_03252023.User" %>
+<%@ Register Src="~/Header.ascx" TagName="myhead" TagPrefix="uch" %>
+<%@ Register Src="~/Footer.ascx" TagName="myfoot" TagPrefix="ucf" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <script src="jquery.js"></script>
+    <link href="menu.css" rel="stylesheet" />
+    <script src="menu.js"></script>
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table>
+           <tr>
+               <td>
+                   <uch:myhead id ="h1" runat="server"></uch:myhead>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <div id="menu">
+		<ul class="menu">
+			<li><a href="UserHome.aspx" class="parent"><span>Home</span></a>
+                    <li><a href="ChangePassword.aspx" class="parent"><span>Change Password</span></a>
+                    <li><a href="Logout.aspx" class="parent"><span>Logout</span></a>
+                   
+				
+		</ul>
+	</div>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <center>
+                       <div>
+                             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                             </asp:ContentPlaceHolder>
+                       </div>
+                   </center>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <ucf:myfoot id="f1" runat="server"></ucf:myfoot>
+               </td>
+           </tr>           
+       </table>
+    </form>
+</body>
+</html>

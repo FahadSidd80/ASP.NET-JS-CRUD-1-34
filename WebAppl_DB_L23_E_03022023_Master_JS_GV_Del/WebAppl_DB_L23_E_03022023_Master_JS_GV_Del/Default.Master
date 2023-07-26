@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="WebAppl_DB_L23_E_03022023_Master_JS_GV_Del.Default" %>
+<%@ Register Src="~/Header.ascx" TagName="myhead" TagPrefix="uch" %>
+<%@ Register Src="~/Footer.ascx" TagName="myfoot" TagPrefix="ucf" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table>
+            <tr>
+                <td>
+                    <uch:myhead id="h1" runat="server"></uch:myhead>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>
+                     <div>
+                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                         </asp:ContentPlaceHolder>
+                     </div>
+                    </center> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <ucf:myfoot id="f1" runat="server"></ucf:myfoot>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

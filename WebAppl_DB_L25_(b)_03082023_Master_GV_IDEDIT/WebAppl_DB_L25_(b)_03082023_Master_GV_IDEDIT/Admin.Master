@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="WebAppl_DB_L25__b__03082023_Master_GV_IDEDIT.Admin" %>
+<%@ Register Src="~/Header.ascx" TagName="myhead" TagPrefix="uch" %>
+<%@ Register Src="~/Footer.ascx" TagName="myfoot" TagPrefix="ucf" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+  
+    <script src="jquery.js"></script>
+    <link href="menu.css" rel="stylesheet" />
+     <script src="menu.js"></script>
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table>
+            <tr>
+                <td>
+                    <uch:myhead id="h1" runat="server"></uch:myhead>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <div id="menu">
+		                <ul class="menu">
+			                <li><a href="RegistrationForm.aspx" class="parent"><span>Registration Form</span></a>
+                                <li><a href="StudentForm.aspx" class="parent"><span>Student Form</span></a>
+			            </ul>	
+	                </div>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <center>
+                        <div>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </center>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <ucf:myfoot id="f1" runat="server"></ucf:myfoot>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
